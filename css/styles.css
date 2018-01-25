@@ -132,8 +132,10 @@ body{
 }
 
 .btn:active {
+  border-top: 5px solid #c13135;
+  padding-top: 11px;
   background-color: #d7373b;
-  color: #e06366;
+  color: #e37375;
 }
 
 .slider-item .btn {
@@ -177,4 +179,72 @@ body{
 
 .slider-item-third {
   background: url('../img/slide3-bg.png') no-repeat 100% 0;
+}
+
+.advantages {
+ padding: 80px 0;
+ position: relative;
+ border-bottom: 2px solid #eee;
+}
+
+.advantages-item {
+  width: 300px;
+  float: left;
+  margin-right: 100px;
+}
+
+.advantages-item:last-child {
+  margin-right: 0;
+}
+
+.advantages-title {
+  margin: 26px 0;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.advantages-description {
+  color: #283136;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.btn-advantages {
+  width: 160px;
+}
+
+.advantages-item:nth-child(2) .btn-advantages{
+  background-color: #00ca74;
+}
+
+.advantages-item:nth-child(2) .btn-advantages:hover{
+  background-color: #00bc6c;
+}
+
+.advantages-item:nth-child(2) .btn-advantages:active{
+  background-color: #00aa62;
+  color: #4cc391;
+  border-top: 5px solid #009958;
+  padding-top: 11px;
+}
+
+.advantages-item:nth-child(3) .btn-advantages{
+  background-color: #efc84a;
+}
+
+.advantages-item:nth-child(3) .btn-advantages:hover{
+  background-color: #eab534;
+}
+
+.advantages-item:nth-child(3) .btn-advantages:active{
+  background-color: #e5a722;
+  color: #edc164;
+  border-top: 5px solid #ce961f;
+  padding-top: 11px;
 }
