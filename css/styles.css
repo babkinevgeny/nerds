@@ -257,12 +257,14 @@ body{
   border-bottom: 2px solid #eee;
   padding-top: 40px;
   padding-bottom: 70px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
 }
 
 .info {
   width: 660px;
-  float: left;
-  margin-right: 140px;
 }
 
 .info-title {
@@ -319,7 +321,6 @@ body{
 
 .statistic {
   width: 360px;
-  float: left;
 }
 
 .statisticlist-title {
