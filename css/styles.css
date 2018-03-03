@@ -363,34 +363,48 @@ body{
 
 
 .partners {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
   border-bottom: 2px solid #eee;
 }
 
 .partners-link {
   height: 180px;
   width: 260px;
-  float: left;
-  margin-right: 40px;
-  text-align: center;
+  opacity: .2;
 }
 
-.partners-link:last-child {
-  margin-right: 0;
+
+.partners-link-htmlacademy {
+  background: url(../img/htmlacademy.png) no-repeat center;
 }
 
-.partners-link img {
-  opacity: 0.2;
-  transition: .2s;
+.partners-link-barbershop {
+  background: url(../img/barbershop.png) no-repeat center;
 }
 
-.partners-link:hover img {
-  display: inline-block;
+.partners-link-pink {
+  background: url(../img/pink.png) no-repeat center;
+}
+
+.partners-link-mishka {
+  background: url(../img/mishka.png) no-repeat center;
+}
+
+.partners-link-htmlacademy:hover,
+.partners-link-barbershop:hover,
+.partners-link-pink:hover,
+.partners-link-mishka:hover {
   opacity: 1;
   transition: .2s;
-  vertical-align: middle;
 }
 
-.partners-link:active img {
+.partners-link-htmlacademy:active,
+.partners-link-barbershop:active,
+.partners-link-pink:active,
+.partners-link-mishka:active {
   opacity: 0.1;
   transition: .1s;
 }
