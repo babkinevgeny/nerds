@@ -184,15 +184,17 @@ body{
 }
 
 .advantages {
- padding: 80px 0;
- position: relative;
- border-bottom: 2px solid #eee;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+  position: relative;
+  border-bottom: 2px solid #eee;
 }
 
 .advantages-item {
   width: 300px;
-  float: left;
-  margin-right: 100px;
 }
 
 .advantages-item:last-child {
