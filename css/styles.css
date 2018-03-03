@@ -8,16 +8,17 @@ body{
   margin: 0;
 }
 
-.clearfix::after {
+/* .clearfix::after {
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 .main-header {
   background-color: #eeeeee;
   padding-top: 50px;
 }
+
 .container {
   width: 1200px;
   padding: 0 20px;
@@ -25,7 +26,6 @@ body{
 }
 
 .logo {
-  float: left;
   margin-right: 200px;
 }
 
@@ -38,12 +38,14 @@ body{
 }
 
 .navigation {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
   margin-bottom: 16px;
 }
 
 .navigation-list {
   list-style: none;
-  float: left;
   margin: 0;
   padding: 0;
 }
@@ -78,7 +80,7 @@ body{
 }
 
 .cart-block {
-  float: right;
+  margin-left: auto;
 }
 
 .cart-block .navigation-link {
