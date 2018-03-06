@@ -396,23 +396,23 @@ body{
   height: 180px;
   width: 260px;
   opacity: .2;
+  background: url('../img/sprite-partners.png') no-repeat;
 }
 
-
 .partners-link-htmlacademy {
-  background: url(../img/htmlacademy.png) no-repeat center;
+  background-position: 30px 55px;
 }
 
 .partners-link-barbershop {
-  background: url(../img/barbershop.png) no-repeat center;
+  background-position: 25px -90px;
 }
 
 .partners-link-pink {
-  background: url(../img/pink.png) no-repeat center;
+  background-position: 35px -235px;
 }
 
 .partners-link-mishka {
-  background: url(../img/mishka.png) no-repeat center;
+  background-position: 40px -370px;
 }
 
 .partners-link-htmlacademy:hover,
@@ -497,6 +497,7 @@ body{
   border-radius: 50%;
   background-color: #e1e1e1;
   margin-right: 12px;
+  background: url('../img/sprite-icons.png') no-repeat, #e1e1e1;
 }
 
 .social-link:hover {
@@ -513,7 +514,6 @@ body{
 }
 
 .social-link-vk {
-  background: url('../img/sprite-icons.png') no-repeat, #e1e1e1;
   background-position: 25px -21px;
 }
 
@@ -522,7 +522,6 @@ body{
 }
 
 .social-link-fb {
-  background: url('../img/sprite-icons.png') no-repeat, #e1e1e1;
   background-position: 32px -137px;
 }
 
@@ -531,7 +530,6 @@ body{
 }
 
 .social-link-inst {
-  background: url('../img/sprite-icons.png') no-repeat, #e1e1e1;
   background-position: 29px -260px;
 }
 
