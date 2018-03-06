@@ -432,12 +432,17 @@ body{
 }
 
 .contacts {
-  background: url('../img/map.jpg') no-repeat;
+  /* background: url('../img/map.jpg') no-repeat;
   -webkit-background-size: cover;
-  background-size: cover;
-  position: relative;
+  background-size: cover; */
   margin-top: 80px;
-  padding: 54px 0;
+  height: 416px;
+  position: relative;
+}
+
+#map {
+  width: 100%;
+  height: 416px;
 }
 
 .contacts-block {
@@ -445,6 +450,9 @@ body{
   height: 310px;
   background-color: #fff;
   padding: 50px;
+  position: absolute;
+  top: 54px;
+  left: 140px;
 }
 
 .contacts-block h3 {
